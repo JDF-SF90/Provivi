@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provivi.MathOperations.DataAccess", "Provivi.MathOperations.DataAccess\Provivi.MathOperations.DataAccess.csproj", "{0709B72E-1FF2-4DE6-87EE-7EC88290CFA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{5A7A34FF-381A-48FC-B219-5087B84B71E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provivi.MathOperations.IDataAccess", "Provivi.MathOperations.IDataAcess\Provivi.MathOperations.IDataAccess.csproj", "{8A5967AF-1445-4B0E-92CE-03CEDFF5D548}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6A4A2D59-0E5F-4124-B738-51A4CF962322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provivi.MathOperations.Infrastructure", "Provivi.MathOperations.Infrastructure\Provivi.MathOperations.Infrastructure.csproj", "{234A3AFE-4F8D-4BCE-BC0A-92008C649FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provivi.MathOperations.IInfrastructure", "Provivi.MathOperations.IInfrastructure\Provivi.MathOperations.IInfrastructure.csproj", "{1F837401-A426-4AA8-964E-17CF83C59879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{E34A731B-9A0E-4F8C-81DD-87DDD6E4E585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provivi.MathOperations.DTO", "Provivi.MathOperations.DTO\Provivi.MathOperations.DTO.csproj", "{6A430DEA-9A70-4AE2-A4F9-4556D715E284}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{05CFD587-9121-4373-A84D-61DD890402DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provivi.MathOperations.Domain", "Provivi.MathOperations.Domain\Provivi.MathOperations.Domain.csproj", "{E6028929-1EC8-47EB-A81B-EF70F2059C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provivi.MathOperations.IDomain", "Provivi.MathOperations.IDomain\Provivi.MathOperations.IDomain.csproj", "{18E529A5-A7BA-4E26-8424-E900D54AE675}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2F659E19-159B-41A8-AF1C-1DA904D99C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provivi.MathOperations.Application", "Provivi.MathOperations.Application\Provivi.MathOperations.Application.csproj", "{2C9E746B-C543-40E1-9F80-53815F71E284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provivi.MathOperations.IApplication", "Provivi.MathOperations.IApplication\Provivi.MathOperations.IApplication.csproj", "{F7FBE957-2F2A-43FF-B4D9-C1F340E6C818}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{372099BD-FA81-4FB7-B37B-FF93A29B43DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provivi.MathOperations.Service", "Provivi.MathOperations.Service\Provivi.MathOperations.Service.csproj", "{3A5647AC-7379-42CC-B92C-C8BAB3396A90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0709B72E-1FF2-4DE6-87EE-7EC88290CFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0709B72E-1FF2-4DE6-87EE-7EC88290CFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0709B72E-1FF2-4DE6-87EE-7EC88290CFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0709B72E-1FF2-4DE6-87EE-7EC88290CFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5967AF-1445-4B0E-92CE-03CEDFF5D548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5967AF-1445-4B0E-92CE-03CEDFF5D548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5967AF-1445-4B0E-92CE-03CEDFF5D548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5967AF-1445-4B0E-92CE-03CEDFF5D548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234A3AFE-4F8D-4BCE-BC0A-92008C649FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234A3AFE-4F8D-4BCE-BC0A-92008C649FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234A3AFE-4F8D-4BCE-BC0A-92008C649FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234A3AFE-4F8D-4BCE-BC0A-92008C649FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F837401-A426-4AA8-964E-17CF83C59879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F837401-A426-4AA8-964E-17CF83C59879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F837401-A426-4AA8-964E-17CF83C59879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F837401-A426-4AA8-964E-17CF83C59879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A430DEA-9A70-4AE2-A4F9-4556D715E284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A430DEA-9A70-4AE2-A4F9-4556D715E284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A430DEA-9A70-4AE2-A4F9-4556D715E284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A430DEA-9A70-4AE2-A4F9-4556D715E284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6028929-1EC8-47EB-A81B-EF70F2059C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6028929-1EC8-47EB-A81B-EF70F2059C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6028929-1EC8-47EB-A81B-EF70F2059C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6028929-1EC8-47EB-A81B-EF70F2059C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E529A5-A7BA-4E26-8424-E900D54AE675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E529A5-A7BA-4E26-8424-E900D54AE675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E529A5-A7BA-4E26-8424-E900D54AE675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E529A5-A7BA-4E26-8424-E900D54AE675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9E746B-C543-40E1-9F80-53815F71E284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9E746B-C543-40E1-9F80-53815F71E284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9E746B-C543-40E1-9F80-53815F71E284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9E746B-C543-40E1-9F80-53815F71E284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FBE957-2F2A-43FF-B4D9-C1F340E6C818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FBE957-2F2A-43FF-B4D9-C1F340E6C818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FBE957-2F2A-43FF-B4D9-C1F340E6C818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FBE957-2F2A-43FF-B4D9-C1F340E6C818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5647AC-7379-42CC-B92C-C8BAB3396A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5647AC-7379-42CC-B92C-C8BAB3396A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5647AC-7379-42CC-B92C-C8BAB3396A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5647AC-7379-42CC-B92C-C8BAB3396A90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0709B72E-1FF2-4DE6-87EE-7EC88290CFA3} = {5A7A34FF-381A-48FC-B219-5087B84B71E1}
+		{8A5967AF-1445-4B0E-92CE-03CEDFF5D548} = {5A7A34FF-381A-48FC-B219-5087B84B71E1}
+		{234A3AFE-4F8D-4BCE-BC0A-92008C649FB4} = {6A4A2D59-0E5F-4124-B738-51A4CF962322}
+		{1F837401-A426-4AA8-964E-17CF83C59879} = {6A4A2D59-0E5F-4124-B738-51A4CF962322}
+		{6A430DEA-9A70-4AE2-A4F9-4556D715E284} = {E34A731B-9A0E-4F8C-81DD-87DDD6E4E585}
+		{E6028929-1EC8-47EB-A81B-EF70F2059C2C} = {05CFD587-9121-4373-A84D-61DD890402DA}
+		{18E529A5-A7BA-4E26-8424-E900D54AE675} = {05CFD587-9121-4373-A84D-61DD890402DA}
+		{2C9E746B-C543-40E1-9F80-53815F71E284} = {2F659E19-159B-41A8-AF1C-1DA904D99C79}
+		{F7FBE957-2F2A-43FF-B4D9-C1F340E6C818} = {2F659E19-159B-41A8-AF1C-1DA904D99C79}
+		{3A5647AC-7379-42CC-B92C-C8BAB3396A90} = {372099BD-FA81-4FB7-B37B-FF93A29B43DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8505AFEF-E2DC-4379-87F1-91DDF3045148}
+	EndGlobalSection
+EndGlobal

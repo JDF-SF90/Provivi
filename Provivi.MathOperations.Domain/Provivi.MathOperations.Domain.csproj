@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Provivi.MathOperations.IDataAcess\Provivi.MathOperations.IDataAccess.csproj" />
+    <ProjectReference Include="..\Provivi.MathOperations.IDomain\Provivi.MathOperations.IDomain.csproj" />
+  </ItemGroup>
+
+</Project>

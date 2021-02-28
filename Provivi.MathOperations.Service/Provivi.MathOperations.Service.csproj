@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Provivi.MathOperations.Application\Provivi.MathOperations.Application.csproj" />
+    <ProjectReference Include="..\Provivi.MathOperations.DataAccess\Provivi.MathOperations.DataAccess.csproj" />
+    <ProjectReference Include="..\Provivi.MathOperations.Domain\Provivi.MathOperations.Domain.csproj" />
+    <ProjectReference Include="..\Provivi.MathOperations.DTO\Provivi.MathOperations.DTO.csproj" />
+    <ProjectReference Include="..\Provivi.MathOperations.IApplication\Provivi.MathOperations.IApplication.csproj" />
+    <ProjectReference Include="..\Provivi.MathOperations.IDataAcess\Provivi.MathOperations.IDataAccess.csproj" />
+    <ProjectReference Include="..\Provivi.MathOperations.IDomain\Provivi.MathOperations.IDomain.csproj" />
+    <ProjectReference Include="..\Provivi.MathOperations.IInfrastructure\Provivi.MathOperations.IInfrastructure.csproj" />
+    <ProjectReference Include="..\Provivi.MathOperations.Infrastructure\Provivi.MathOperations.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
