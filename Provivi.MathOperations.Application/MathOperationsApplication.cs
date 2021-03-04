@@ -69,11 +69,11 @@ namespace Provivi.MathOperations.Application
             {
                 mathOperationsDTO.result = mathOperationsDTO.value1 + mathOperationsDTO.value2;
 
-                response.IsSuccess = await mathOperationsDomain.InsertAsync("getAProduct", mathOperationsDTO.result);
+                response.IsSuccess = await mathOperationsDomain.InsertAsync("getASum", mathOperationsDTO.result);
                 if (response.IsSuccess)
                 {
                     response.Data = mathOperationsDTO;
-                    response.Message = "getAProduct!!!";
+                    response.Message = "getASum!!!";
                 }
             }
             catch (Exception e)
